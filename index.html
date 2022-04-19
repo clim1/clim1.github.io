@@ -1,2 +1,98 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 
+Written By: Carlos Lim
+Email: limca1@uci.edu
+ -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta name="author" content="Carlos Lim" />
+        <meta name="description" content="Personal Portfolio: A1" />
+        <title>Carlos Alfonso-Lim Portfolio</title>
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="container mainContain">
+            <a class="skipNav" href="#skipTo">skip navigation</a>
+            <!-- skip nav. button can be accessed by pressing TAB (accessibility)-->
+
+            <div class="mainHeader">
+                <div class="logo">
+                    <h1 class="title">Carlos Alfonso-Lim</h1>
+                </div>
+                <div class="hamburger">
+                    <!-- Hamburger should only show in mobile version -->
+                    <a href="menu.html"
+                        ><img
+                            src="images/menu_black_36dp.svg"
+                            alt="navigation hamburger"
+                    /></a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="about.html">Contact Me</a></li>
+                    <li>
+                        <a href="images/limca1_resume.pdf" target="_blank"
+                            >Resume</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://www.carlosalim.com/" target="_blank"
+                            >Actual Portfolio</a
+                        >
+                    </li>
+                    <!-- Target will open a new window when link is clicked -->
+                </ul>
+            </nav>
+        </header>
+        <main class="container mainContain mainBody" id="skipTo">
+            <section class="blurbBox">
+                <div class="blurb">
+                    <h2>&#128075; Hello, I'm Carlos</h2>
+                    <p>
+                        I'm a <em>UX Designer</em> and HCI Student focused on
+                        establishing a positive digital footprint.
+                    </p>
+                    <p>
+                        Currently Designing
+                        <a
+                            href="https://ctc-uci.com/"
+                            target="_blank"
+                            class="workLink"
+                            >@Commit the Change</a
+                        >
+                    </p>
+                </div>
+            </section>
+            <img
+                src="images/portrait.jpg"
+                alt="Photograph of Carlos Lim"
+                class="mainImage"
+            />
+        </main>
+        <footer>
+            <h3>Carlos Alfonso-Lim</h3>
+            <p>
+                <a
+                    href="http://jigsaw.w3.org/css-validator/check/referer"
+                    target="_blank"
+                >
+                    <img
+                        style="border: 0; width: 88px; height: 31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!"
+                    />
+                </a>
+                <!-- CSS Validation Proof image -->
+            </p>
+            <p>Copyright 2022</p>
+        </footer>
+    </body>
 </html>
